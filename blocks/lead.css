@@ -1,0 +1,51 @@
+.lead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.lead__content {
+  width: 73.3%;
+  height: auto;
+}
+.lead__title {
+  text-align: center;
+  font-size: 6rem;
+  line-height: 1.5;
+  width: 72%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.lead__description {
+  padding: 20px;
+  width: 72%;
+  margin: auto;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.lead__image {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .lead__title {
+    font-size: 4.5rem;
+  }
+
+  .lead__description {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .lead__title {
+    font-size: 2rem;
+  }
+
+  .lead__description {
+    font-size: 0.6rem;
+  }
+}

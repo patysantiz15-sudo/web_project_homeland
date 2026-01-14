@@ -1,0 +1,11 @@
+.page {
+  min-width: 100%;
+  max-width: 100%;
+  font-family: Arial, sans-serif, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: auto;
+  line-height: 1;
+  background-color: #2a2c2f;
+  color: #ffffff;
+}

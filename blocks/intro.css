@@ -1,0 +1,51 @@
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+.intro__content {
+  width: 73.3%;
+  height: auto;
+}
+
+.intro__title {
+  width: 83%;
+  height: auto;
+  font-size: 3.3rem;
+}
+
+.intro__description {
+  width: 73%;
+  height: auto;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.intro__description-autor {
+  font-size: 1.5rem;
+  margin: auto;
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  width: 73%;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 2rem;
+  }
+  .intro__description {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .intro__title {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  .intro__description {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+}
