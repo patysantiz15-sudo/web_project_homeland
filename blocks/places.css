@@ -74,7 +74,7 @@
   max-height: 100%;
 }
 
-.overlay {
+.places__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -85,7 +85,7 @@
   transition: opacity 0.3s ease;
 }
 
-.places__content-images:hover .overlay {
+.places__content-images:hover .places__overlay {
   opacity: 1;
 }
 
