@@ -1,0 +1,138 @@
+.places {
+  display: flex;
+  justify-content: center;
+}
+
+.places__content {
+  width: 73.3%;
+  height: auto;
+}
+
+.places__content-iframe {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  margin: auto;
+}
+
+.places__title {
+  max-height: auto;
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+
+.places__text {
+  max-height: auto;
+  margin-top: 10%;
+}
+
+.website__url-heading {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #aaaaaa;
+  text-transform: uppercase;
+}
+.website__artist {
+  font-weight: 400;
+  font-size: 1.12rem;
+  line-height: 0.2;
+}
+
+.website__paragraph {
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-top: 4%;
+  line-height: 1.5;
+}
+
+.places__button {
+  font-size: 1.2rem;
+  max-width: 65%;
+  font-weight: 600;
+  color: white;
+  height: 7%;
+  background: linear-gradient(90deg, #0278fe, #003a7b);
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.places__button:hover {
+  box-shadow: 0px 0px 245px 15px rgba(0, 0, 0, 0.61) inset;
+}
+
+.places__content-images {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.places__content-images img {
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.places__content-images:hover .overlay {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .places__title {
+    max-height: auto;
+    font-size: 2.5rem;
+    margin-top: 15%;
+  }
+  .website__artist {
+    font-size: 1rem;
+  }
+
+  .website__paragraph {
+    font-size: 0.9rem;
+
+    line-height: 1.5;
+  }
+
+  .places__button {
+    font-size: 0.8rem;
+    max-width: 95%;
+    height: 7%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .places__title {
+    max-height: auto;
+    font-size: 1.8rem;
+    margin-top: 15%;
+  }
+
+  .website__artist {
+    font-size: 0.8rem;
+  }
+  .places__content-iframe {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: auto;
+  }
+
+  .places__button {
+    font-size: 1rem;
+    max-width: 100%;
+    height: 12%;
+    margin-top: 2%;
+  }
+}
