@@ -26,19 +26,19 @@
   margin-top: 10%;
 }
 
-.website__url-heading {
+.places__url-heading {
   font-weight: 400;
   font-size: 0.75rem;
   color: #aaaaaa;
   text-transform: uppercase;
 }
-.website__artist {
+.places__artist {
   font-weight: 400;
   font-size: 1.12rem;
   line-height: 0.2;
 }
 
-.website__paragraph {
+.places__paragraph {
   font-weight: 400;
   font-size: 1.25rem;
   margin-top: 4%;
@@ -95,11 +95,11 @@
     font-size: 2.5rem;
     margin-top: 15%;
   }
-  .website__artist {
+  .places__artist {
     font-size: 1rem;
   }
 
-  .website__paragraph {
+  .places__paragraph {
     font-size: 0.9rem;
 
     line-height: 1.5;
@@ -119,7 +119,7 @@
     margin-top: 15%;
   }
 
-  .website__artist {
+  .places__artist {
     font-size: 0.8rem;
   }
   .places__content-iframe {
